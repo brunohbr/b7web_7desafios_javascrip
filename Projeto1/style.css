@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -21,11 +22,13 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 .key {
     width: 80px;
     height: 80px;
     border: 2px solid #FFF;
+    border-radius: 50%;
     color: #FFF;
     display: flex;
     justify-content: center;
