@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,11 +33,11 @@ h1 {
     align-items: center;
     font-size: 60px;
     font-weight: bold;
-    color: #FFF;
+    color: rgb(240, 71, 71);
     cursor: pointer;
 }
 .item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(187, 184, 184, 0.1);
 }
 
 .item.t {
@@ -75,9 +75,14 @@ h1 {
 }
 
 .reset {
-    border: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #FFF;
+    border: 1px solid rgb(180, 170, 170);
+    border-radius: 5px;
+    background-color: rgb(240, 71, 71);
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 20px;
+}
+.reset:active{
+    transform: scale(0.95);
+    
 }
